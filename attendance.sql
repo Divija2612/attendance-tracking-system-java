@@ -9,3 +9,6 @@ CREATE TABLE attendance (
     date DATE,
     status VARCHAR(10) CHECK (status IN ('Present','Absent'))
 );
+
+SELECT * FROM students;
+TRUNCATE TABLE attendance, students RESTART IDENTITY CASCADE;
