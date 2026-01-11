@@ -4,8 +4,7 @@ A Java Swing application using PostgreSQL to manage student attendance.
 
 ## Features
 - Add students
-- View student list
-- Mark attendance (Present / Absent)
+- Mark attendance and view the student list of those who are present
 - JDBC + PostgreSQL integration
 
 ## Tech Stack
